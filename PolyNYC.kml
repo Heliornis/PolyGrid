@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PolyNYC.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>PolyNYC</name>
+		<open>1</open>
+		<Placemark>
+			<name>TestLayerNYC</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.01237834607984,40.80738645324218,0 -74.01737268555677,40.77410603934597,0 -74.04029275452235,40.76304684170405,0 -74.09353179407653,40.7660997590575,0 -74.16929540874754,40.76714641764705,0 -74.19866149880325,40.71902158457686,0 -74.19004959017654,40.66077654715706,0 -74.13578283395952,40.637777623608,0 -74.04500257208919,40.6231107688971,0 -74.00416701117392,40.66638706102577,0 -73.94910661116097,40.67619935385769,0 -73.90946877593079,40.68426014453092,0 -73.86192776667264,40.66401356521796,0 -73.76803039328333,40.65577007001458,0 -73.73348785454029,40.68956072801427,0 -73.75995045582336,40.74176669946356,0 -73.82161245848921,40.74258129495183,0 -73.81937314855072,40.82302876113092,0 -73.87250059636854,40.86064323921929,0 -73.96849027514118,40.86341125407208,0 -74.01237834607984,40.80738645324218,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
